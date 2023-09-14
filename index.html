@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sagarika Resturant Catalogue</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  background-color: white;
+  font-family: arial black;
+}
+a
+{
+  color: white;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  width: 32.2%;
+}
+.googlerevuyiew
+{
+  border: none;
+  color: white;
+  padding: 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+}
+.last
+{
+  border: none;
+  color: white;
+  padding: 10px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+}
+.alignRight {
+  float: right;
+}
+.tbcont1 {
+  background-color:white;
+  border: none;
+  padding: 10px 10px;
+  font-size: 14px;
+}
+.tbcont2 {
+  background-color:#FFFDD0;
+  border: none;
+  padding: 10px 10px;
+  font-size: 14px;
+}
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.dropbtn {
+  background-color: #62B310;
+  color: white;
+  padding: 8px;
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2f3020;
+  min-width: 60%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+  text-align: center;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1; color: #2f3020;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 70%;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.column2 {
+  float:right;
+  width: 20%;
+  padding: 20px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+
+ <!-- Topbar Start -->
+    <div class="container-fluid" style="align-items: center; text-align: center; background-color:#072C63; color: white; ">
+                    <div class="container" style="padding: 5px;">
+        <div class="row">
+
+            <div class="col-lg-3" style="padding: 5px;">
+                <div class="h-100 d-inline-flex">
+                    <span><span>Our Social Media Handles</span></span>
+                </div>
+            </div>
+            <div class="col-lg-7">
+            </div>
+            <div class="col-lg-2">
+              <div class="h-100 d-inline-flex">
+                    <a class="btn btn-sm-square bg-white txtor me-1" href=""><i class="fa fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square bg-white txtor me-1" href=""><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-sm-square bg-white txtor me-1" href="mailto:sagarikaresturant80@gmail.com"><i class="fa fa-envelope"></i></a>
+                    <a class="btn btn-sm-square" href="https://wa.me/+918887987752?text=please%20take%20my%20order%20"><i class="fa fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+ <!-- Topbar End -->
+<div class="container-fluid">
+<div class="row">
+  <div class="column">
+    <img src="logo.png" style="width:100%; height: auto;">
+  </div>
+  <div class="column2">
+        <div>  
+                  <a href="whatsapp://send?text=https://sagarikaresturant.netlify.app/" data-action="share/whatsapp/share">
+                  
+                      <!-- Share in Whatsapp -->
+                      <img src="share.png" style="width:100%;">
+                    
+                  </a>
+                  <!-- <a href="whatsapp://send?text=your website url link " data-action="share/whatsapp/share">Share in Whatsapp</a>  -->
+            
+                </div>
+  </div>
+</div>
+</div>
+
+
+
+        
+
+            
+
+
+<!---googlereview--->
+
+<div id="backbutton" class="container-fluid menu" style="background-color:#072C63; padding: 7px; text-align: center; font-size: 18px;">
+  <a href="https://g.page/r/CW04igW_HYJHEB0/review" class="googlereview"> <i class="fa fa-google"></i> <b>Please Rewiew us Google</b> </a>
+</div>
+
+
+
+<!---menu--->
+
+<div class="container-fluid">
+  <div class="dropdown" style="width: 100%;">
+  <button class="dropbtn"><b>Click for all Menu Category</b></button>
+  <div class="dropdown-content" style="width: 60%;">
+  <a href="#nonveg">Thali</a>
+  <a href="#Breakfast">Breakfast</a>
+  <a href="#DAL">Dal</a>
+  <a href="#PANEER">Paneer</a>
+  <a href="#ROTI">Roti</a>
+  <a href="#RICE">Rice</a>  
+  <a href="#RAITA">Raita</a>
+  <a href="#VEG">Veg</a>
+  <a href="#PAPAD">Papad</a>
+  <a href="#SWEATS">Sweats</a>
+  <a href="#homey">Back</a>
+  </div>
+</div>
+  
+</div>
+
+
+
+ <!--items--->
+
+   <div class="container-fluid"  style="background-color: #072C63; padding: 5px; text-align: center; color: white; 
+   font-size: 20px;">  Plain Thali - Rs.100/-
+  </div>
+
+    <div id="pizza" class="container-fluid">
+
+    <div class="container tbcont2"><table style="width: 100%; text-align: center; font-size: 18px;">
+    <tr><td>4 Roti, Dal Tadka, Seasonal Subji Rice, Salad, Aachar</td></tr></table></div>
+
+    </div>
+
+<!--items end--->
+
+ <!--items--->
+
+   <div class="container-fluid"  style="background-color: #072C63; padding: 5px; text-align: center; color: white; 
+   font-size: 20px;"> Middle Thali - Rs.150/-
+  </div>
+
+    <div id="pizza" class="container-fluid">
+
+    <div class="container tbcont2"><table style="width: 100%; text-align: center; font-size: 18px;">
+    <tr><td>4 Roti, Dal Tadka, 2 Subji Rice, Salad, Aachar, Raita</td></tr></table></div>
+
+    </div>
+
+<!--items end--->
+
+ <!--items--->
+
+   <div class="container-fluid"  style="background-color: #072C63; padding: 5px; text-align: center; color: white; 
+   font-size: 20px;"> Special Thali - Rs.200/-
+  </div>
+
+    <div id="pizza" class="container-fluid">
+
+    <div class="container tbcont2"><table style="width: 100%; text-align: center; font-size: 18px;">
+    <tr><td>4 Roti, Dal Tadka, 2 Subji Rice, Salad, Aachar, Raita</td></tr></table></div>
+
+    </div>
+
+<!--items end--->
+
+
+ <!--items--->
+
+   <div id="Breakfast" class="container-fluid"  style="background-color: #072C63; padding: 5px; text-align: center; color: white; font-size: 20px;">
+  Breakfast</div>
+
+<div class="container-fluid">
+    <div class="container tbcont1" style="background-color: #2f3020; color: white;"><table style="width: 100%;">
+  <tr><td>ITEMS</td><td class="alignRight">FULL</td></tr></table></div>
+
+  <div class="container tbcont1"><table style="width: 100%;">
+  <tr><td>Bread Makkhan</td><td class="alignRight"><b>30</b></td></tr></table></div>
+
+    <div class="container tbcont2"><table style="width: 100%;">
+  <tr><td>Bun Makkhan</td><td class="alignRight"><b>30</b></td></tr></table></div>
+
+  <div class="container tbcont1"><table style="width: 100%;">
+  <tr><td>Poha (Chiwda)</td><td class="alignRight"><b>50</b></td></tr></table></div>
+
+    <div class="container tbcont2"><table style="width: 100%;">
+  <tr><td>Poha (Muri)</td><td class="alignRight"><b>50</b></td></tr></table></div>
+    <div class="container tbcont1"><table style="width: 100%;">
+  <tr><td>Puri Sabzi(4pcs)</td><td class="alignRight"><b>35</b></td></tr></table></div>
+
+  <div class="container tbcont2"><table style="width: 100%;">
+  <tr><td>Aloo Paratha</td><td class="alignRight"><b>40</b></td></tr></table></div>
+
+    <div class="container tbcont1"><table style="width: 100%;">
+  <tr><td>Aloo Pyaz Paratha</td><td class="alignRight"><b>50</b></td></tr></table></div>
+
+  <div class="container tbcont2"><table style="width: 100%;">
+  <tr><td>Paneer Paratha</td><td class="alignRight"><b>90</b></td></tr></table></div>
+
+    <div class="container tbcont1"><table style="width: 100%;">
+  <tr><td>Sattu Paratha</td><td class="alignRight"><b>50</b></td></tr></table></div>
+
+</div>
+
+<!--items end--->
+
+ <!--items--->
+
+   <div id="DAL" class="container-fluid"  style="background-color: #072C63; padding: 5px; text-align: center; color: white; font-size: 20px;">
+  DAL</div>
+
+<div class="container-fluid">
+    <div class="container tbcont1" style="background-color: #2f3020; color: white;"><table style="width: 100%;">
+  <tr><td>ITEMS</td><td class="alignRight">FULL</td></tr></table></div>
+
+  <div class="container tbcont1"><table style="width: 100%;">
+  <tr><td>Yellow Jeera Dal</td><td class="alignRight"><b>130</b></td></tr></table></div>
+
+    <div class="container tbcont2"><table style="width: 100%;">
+  <tr><td>Yellow Dal Tadka</td><td class="alignRight"><b>130</b></td></tr></table></div>
+
+  <div class="container tbcont1"><table style="width: 100%;">
+  <tr><td>Dal Fry with Butter</td><td class="alignRight"><b>150</b></td></tr></table></div>
+
+    <div class="container tbcont2"><table style="width: 100%;">
+  <tr><td>Gujrati Dal</td><td class="alignRight"><b>150</b></td></tr></table></div>
+
+</div>
+
+<!--items end--->
+
+ <!--items--->
+
+   <div id="PANEER" class="container-fluid"  style="background-color: #072C63; padding: 5px; text-align: center; color: white; font-size: 20px;">
+  PANEER</div>
+
+<div  class="container-fluid">
+    <div class="container tbcont1" style="background-color: #2f3020; color: white;"><table style="width: 100%;">
+  <tr><td>ITEMS</td><td class="alignRight">FULL</td></tr></table></div>
+
+  <div class="container tbcont1"><table style="width: 100%;">
+  <tr><td>Matter Paneer</td><td class="alignRight"><b>180</b></td></tr></table></div>
+
+    <div class="container tbcont2"><table style="width: 100%;">
+  <tr><td>Sahi Paneer</td><td class="alignRight"><b>200</b></td></tr></table></div>
+
+  <div class="container tbcont1"><table style="width: 100%;">
+  <tr><td>Paneer Butter Masala</td><td class="alignRight"><b>200</b></td></tr></table></div>
+
+    <div class="container tbcont2"><table style="width: 100%;">
+  <tr><td>Paneer Do Pyaza</td><td class="alignRight"><b>200</b></td></tr></table></div>
+    <div class="container tbcont1"><table style="width: 100%;">
+  <tr><td>Paneer Bhurji</td><td class="alignRight"><b>200</b></td></tr></table></div>
+
+  <div class="container tbcont2"><table style="width: 100%;">
+  <tr><td>Paneer Afgani</td><td class="alignRight"><b>220</b></td></tr></table></div>
+
+    <div class="container tbcont1"><table style="width: 100%;">
+  <tr><td>Paneer Lababdar</td><td class="alignRight"><b>220</b></td></tr></table></div>
+
+  <div class="container tbcont2"><table style="width: 100%;">
+  <tr><td>Chilli Paneer</td><td class="alignRight"><b>200</b></td></tr></table></div>
+
+    <div class="container tbcont1"><table style="width: 100%;">
+  <tr><td>Kadai Paneer</td><td class="alignRight"><b>220</b></td></tr></table></div>
+
+</div>
+
+<!--items end--->
+   <div id="ROTI" class="container-fluid"  style="background-color: #072C63; padding: 5px; text-align: center; color: white; font-size: 20px;">ROTI</div>
+
+<div  class="container-fluid">
+    <div class="container tbcont1" style="background-color: #2f3020; color: white;"><table style="width: 100%;">
+  <tr><td>ITEMS</td><td class="alignRight">FULL</td></tr></table></div>
+
+  <div class="container tbcont1"><table style="width: 100%;">
+  <tr><td>Tawa Roti</td><td class="alignRight"><b>10</b></td></tr></table></div>
+
+    <div class="container tbcont2"><table style="width: 100%;">
+  <tr><td>Butter Roti</td><td class="alignRight"><b>15</b></td></tr></table></div>
+
+  <div class="container tbcont1"><table style="width: 100%;">
+  <tr><td>Plane Paratha</td><td class="alignRight"><b>15</b></td></tr></table></div>
+
+    <div class="container tbcont2"><table style="width: 100%;">
+  <tr><td>Butter Paratha</td><td class="alignRight"><b>20</b></td></tr></table></div>
+  <div class="container tbcont2"><table style="width: 100%;">
+  <tr><td>Masala Paratha</td><td class="alignRight"><b>20</b></td></tr></table></div>
+   
+</div>
+
+<!--items end--->
+
+
+<!--items end--->
+   <div id="RICE" class="container-fluid"  style="background-color: #072C63; padding: 5px; text-align: center; color: white; font-size: 20px;">RICE</div>
+
+<div  class="container-fluid">
+    <div class="container tbcont1" style="background-color: #2f3020; color: white;"><table style="width: 100%;">
+  <tr><td>ITEMS</td><td class="alignRight">HALF/FULL</td></tr></table></div>
+
+  <div class="container tbcont1"><table style="width: 100%;">
+  <tr><td>Plain Rice</td><td class="alignRight"><b>50/80</b></td></tr></table></div>
+
+    <div class="container tbcont2"><table style="width: 100%;">
+  <tr><td>Jeera Rice</td><td class="alignRight"><b>60/100</b></td></tr></table></div>
+
+  <div class="container tbcont1"><table style="width: 100%;">
+  <tr><td>Fried Rice (Masala)</td><td class="alignRight"><b>80/140</b></td></tr></table></div>
+
+    <div class="container tbcont2"><table style="width: 100%;">
+  <tr><td>Fried Rice (Suace)</td><td class="alignRight"><b>90/150</b></td></tr></table></div>
+   
+</div>
+
+<!--items end--->
+
+
+<!--items--->
+
+   <div id="RAITA" class="container-fluid"  style="background-color: #072C63; padding: 5px; text-align: center; color: white; font-size: 20px;">RAITA</div>
+
+<div class="container-fluid">
+    <div class="container tbcont1" style="background-color: #2f3020; color: white;"><table style="width: 100%;">
+  <tr><td>ITEMS</td><td class="alignRight">HALF/FULL</td></tr></table></div>
+
+  <div class="container tbcont1"><table style="width: 100%;">
+  <tr><td>Kheera Raita</td><td class="alignRight"><b>70</b></td></tr></table></div>
+
+    <div class="container tbcont2"><table style="width: 100%;">
+  <tr><td>Plaine Raita</td><td class="alignRight"><b>60</b></td></tr></table></div>
+
+  <div class="container tbcont1"><table style="width: 100%;">
+  <tr><td>Bundi Raita</td><td class="alignRight"><b>80</b></td></tr></table></div>
+
+    <div class="container tbcont2"><table style="width: 100%;">
+  <tr><td>Plane Dahi</td><td class="alignRight"><b>40</b></td></tr></table></div>
+
+</div>
+
+<!--items end--->
+<!--items end--->
+   <div id="VEG" class="container-fluid"  style="background-color: #072C63; padding: 5px; text-align: center; color: white; font-size: 20px;">VEG</div>
+
+<div  class="container-fluid">
+    <div class="container tbcont1" style="background-color: #2f3020; color: white;"><table style="width: 100%;">
+  <tr><td>ITEMS</td><td class="alignRight">HALF/FULL</td></tr></table></div>
+
+  <div class="container tbcont1"><table style="width: 100%;">
+  <tr><td>Jeera Aloo</td><td class="alignRight"><b>50/120</b></td></tr></table></div>
+
+    <div class="container tbcont2"><table style="width: 100%;">
+  <tr><td>Mix Veg</td><td class="alignRight"><b>80/150</b></td></tr></table></div>
+
+  <div class="container tbcont1"><table style="width: 100%;">
+  <tr><td>Seasonal Sabji</td><td class="alignRight"><b>70/130</b></td></tr></table></div>
+   
+</div>
+
+<!--items end--->
+
+
+<!--items--->
+
+   <div id="PAPAD" class="container-fluid"  style="background-color: #072C63; padding: 5px; text-align: center; color: white; font-size: 20px;">PAPAD</div>
+
+<div class="container-fluid">
+    <div class="container tbcont1" style="background-color: #2f3020; color: white;"><table style="width: 100%;">
+  <tr><td>ITEMS</td><td class="alignRight">PCS</td></tr></table></div>
+
+  <div class="container tbcont1"><table style="width: 100%;">
+  <tr><td>Roasted Papad</td><td class="alignRight"><b>10</b></td></tr></table></div>
+
+    <div class="container tbcont2"><table style="width: 100%;">
+  <tr><td>fry Papad</td><td class="alignRight"><b>15</b></td></tr></table></div>
+
+</div>
+
+<!--items end--->
+
+
+<!--items--->
+
+   <div id="SWEATS" class="container-fluid"  style="background-color: #072C63; padding: 5px; text-align: center; color: white; font-size: 20px;">SWEATS</div>
+
+<div class="container-fluid">
+    <div class="container tbcont1" style="background-color: #2f3020; color: white;"><table style="width: 100%;">
+  <tr><td>ITEMS</td><td class="alignRight">PCS</td></tr></table></div>
+
+  <div class="container tbcont1"><table style="width: 100%;">
+  <tr><td>Rasgulla</td><td class="alignRight"><b>10/pcs</b></td></tr></table></div>
+
+    <div class="container tbcont2"><table style="width: 100%;">
+  <tr><td>Gulab Jamun</td><td class="alignRight"><b>20/pcs</b></td></tr></table></div>
+
+</div>
+
+<!--items end--->
+ 
+
+<!---googlereview--->
+
+<div class="container-fluid" style="background-color: black; text-align: center;">
+  <a href="https://restraqr.vmakertechnologies.com/" class="last">Powered by- Restra-QR </a>
+</div>
+
+</body>
+</html>
